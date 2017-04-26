@@ -8,7 +8,7 @@
   <name>app3 Biblioteca</name>
   
   <description>
-   Aplicacion que muestra la biblioteca
+   Aplicacion que muestra informacion sobre la biblioteca
   </description>
   
   <autor href="http://build.phonegap.com" email="isaias.tellez.fabian.cbtis16@gmail.com">
@@ -33,14 +33,15 @@
   <!--<plugin name="cordova-plugin-geolocation" source="npm" /> -->
     <!-- Third part plugins -->
 	
-	 <!-- para accesar a paginas en internet-->
-	  <allow-intent href="https://*/*"/>
-	  <acces origin="https://*/*"/>
-	  <allow-intent href="http://*/*"/>
-	  <acces origin="http://*/*"/>
-	  <plugin name="cordova-plugin-whitelist" source="npm"/>
 	
-	 <!-- Colocar icono app -->
+	<!-- Para acceder a paginas en internet-->
+<allow-internet href="https://*/*"/>
+<acces origin="https://*/*"/>	
+<allow-internet href="http://*/*"/>
+<acces origin="http://*/*"/>	
+<plugin name="cordova-plugin-whitelist" source="npm"/>
+
+		 <!-- Colocar icono app -->
 	 
 <icon src="res/android/mdpi.png" />
 
