@@ -5,10 +5,10 @@
   id ="com.phonegap.example2"
   version ="1.0.0">
   
-  <name>app2 TELEFONIACELULAR</name>
+  <name>app3 Biblioteca</name>
   
   <description>
-   Aplicacion que muestra informacion sobre la telefonia celular
+   Aplicacion que muestra la biblioteca
   </description>
   
   <autor href="http://build.phonegap.com" email="isaias.tellez.fabian.cbtis16@gmail.com">
@@ -32,6 +32,13 @@
   
   <!--<plugin name="cordova-plugin-geolocation" source="npm" /> -->
     <!-- Third part plugins -->
+	
+	 <!-- para accesar a paginas en internet-->
+	  <allow-intent href="https://*/*"/>
+	  <acces origin="https://*/*"/>
+	  <allow-intent href="http://*/*"/>
+	  <acces origin="http://*/*"/>
+	  <plugin name="cordova-plugin-whitelist" source="npm"/>
 	
 	 <!-- Colocar icono app -->
 	 
